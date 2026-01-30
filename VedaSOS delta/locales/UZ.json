@@ -1,0 +1,46 @@
+{
+  "welcome": {
+    "title": "🤖 VedaVector Texnik Yordam botiga xush kelibsiz!",
+    "description": "Men texnik yordam boti. Sizga ariza yaratishda va mutaxassislarimiz bilan bog'lanishda yordam beraman.",
+    "features": "📋 **Imkoniyatlar:**\n• Pyrus tizimida ariza yaratish\n• Avtomatik ma'lumot to'plash\n• Tezkor murojaat qayta ishlash",
+    "commands": "⚙️ **Qanday foydalanish:**\nAriza yaratish uchun /SOS buyrug'idan foydalaning",
+    "warning": "⚠️ **Muhim:** Arizani oxirigacha to'ldiring! Yakunlanmagan arizalar qayta ishlanmaydi."
+  },
+  "menu": {
+    "select_language": "🌍 Tilni tanlash",
+    "create_ticket": "🎫 Ariza yaratish"
+  },
+  "ticket": {
+    "select_branch": "Ariza uchun filialni tanlang:",
+    "enter_branch_name": "🏢 Filial nomini kiriting:",
+    "no_branch": "Filial yo'q",
+    "describe_problem": "📝 Muammoingizni batafsil tasvirlab bering:",
+    "confirm_title": "✅ Arizani tasdiqlash",
+    "confirm_details": "📋 **TEXNIK YORDAMGA ARIZA**\n━━━━━━━━━━━━━━━━━━━━\n👤 **Foydalanuvchi:** {user_name}\n👥 **Guruh:** {group_name}\n🏢 **Filial:** {branch}\n\n📝 **Muammo tavsifi:**\n{description}\n━━━━━━━━━━━━━━━━━━━━",
+    "btn_confirm": "✅ Tasdiqlash va yaratish",
+    "btn_cancel": "❌ Bekor qilish",
+    "created": "✅ **Ariza muvaffaqiyatli yaratildi!**\n\nMutaxassis javobini kuting. Arizangiz ishga olinganda sizga xabar beriladi.",
+    "cancelled": "❌ Ariza yaratish bekor qilindi.",
+    "group_saved": "✅ Guruh tizimda saqlandi!"
+  },
+  "language": {
+    "select": "🌍 Выберите язык / Tilni tanlang:",
+    "russian": "🇷🇺 Русский",
+    "uzbek": "🇺🇿 O'zbekcha",
+    "changed": "✅ Interfeys tili o'zbekchaga o'zgartirildi"
+  },
+  "errors": {
+    "group_only": "❌ Bu buyruq faqat guruhlarda ishlaydi!",
+    "empty_description": "❌ Tavsif bo'sh bo'lishi mumkin emas. Qaytadan urinib ko'ring.",
+    "empty_branch": "❌ Filial nomi bo'sh bo'lishi mumkin emas. Qaytadan urinib ko'ring.",
+    "pyrus_error": "⚠️ Arizani Pyrusga yuborib bo'lmadi.\n\nIltimos, administratorga murojaat qiling.",
+    "general_error": "❌ Xatolik yuz berdi. /SOS buyrug'i bilan qaytadan boshlang"
+  },
+  "common": {
+    "cancel": "❌ Bekor qilish",
+    "back": "◀️ Orqaga"
+  },
+  "help": {
+    "text": "🇺🇿 **Bot ishlatish bo'yicha yordam**\n\n**Ariza yaratish**\nAriza yaratish uchun /SOS buyrug'idan foydalaning\n\nAriza yaratish jarayonida kerak:\n1. Filialni tanlash yoki kiritish\n2. Muammoni tasvirlash\n3. Yuborishni tasdiqlash\n\n❗ **E'tibor bering:**\n— Maydonlarda faqat matn talab qilinadi\n— Ovozli yoki video xabarlar yubormang\n\n**Til tanlash**\nInterfeys tilini o'zgartirish uchun /language buyrug'idan foydalaning"
+  }
+}
